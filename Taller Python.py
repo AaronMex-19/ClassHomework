@@ -132,10 +132,10 @@ def menu():
 
 def menu_nivel1():
     print("\n--- Nivel 1 ---")
-    print("1. edad()")
-    print("2. suma()")
-    print("3. num_aleatorio()")
-    print("4. contador_vocales()")
+    print("1. edad")
+    print("2. suma")
+    print("3. num aleatorio")
+    print("4. contador_vocales")
     opcion = input("Elige una función: ")
 
     if opcion == "1": edad()
@@ -147,8 +147,8 @@ def menu_nivel1():
 def menu_nivel2():
     print("\n--- Nivel 2 ---")
     print("1. palindromo()")
-    print("2. calcular_potencia()")
-    print("3. calcular_media()")
+    print("2. calcular potencia()")
+    print("3. calcular media()")
     opcion = input("Elige una función: ")
 
     if opcion == "1": palindromo()
@@ -158,10 +158,10 @@ def menu_nivel2():
 
 def menu_nivel3():
     print("\n--- Nivel 3 ---")
-    print("1. invertir_cadena()")
-    print("2. mayor_de_tres_numeros()")
-    print("3. calcular_area()")
-    print("4. buscar_palabra()")
+    print("1. invertir cadena()")
+    print("2. mayor de tres numeros()")
+    print("3. calcular area()")
+    print("4. buscar palabra()")
     opcion = input("Elige una función: ")
 
     if opcion == "1": invertir_cadena()
@@ -174,9 +174,9 @@ def menu_nivel4():
     print("\n--- Nivel 4 ---")
     print("1. promedio()")
     print("2. multiplicar_lista()")
-    print("3. mayor_de_varios_numeros()")
-    print("4. calcular_mediana()")
-    print("5. contar_ocurrencias()")
+    print("3. mayor de varios numeros()")
+    print("4. calcular mediana()")
+    print("5. contar ocurrencias()")
     opcion = input("Elige una función: ")
 
     if opcion == "1": promedio()
@@ -186,5 +186,6 @@ def menu_nivel4():
     elif opcion == "5": contar_ocurrencias()
     else: print("Opción inválida.")
 
-if __name__ == "__main__":
+if __name__ == "main":
     menu()
+
