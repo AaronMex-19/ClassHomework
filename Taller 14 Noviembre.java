@@ -79,7 +79,7 @@ public class ExploradorTesoro {
 
     public static void main(String[] args) {
 
-        int tamaño = 10;
+        int tamaño = 6;
         Mapa mapa = new Mapa(tamaño);
 
         Random rand = new Random();
@@ -105,4 +105,5 @@ public class ExploradorTesoro {
         System.out.println("¡Tesoro encontrado!");
         System.out.println("Total de pasos: " + pasos);
     }
+
 }
